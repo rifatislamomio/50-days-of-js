@@ -12,7 +12,6 @@ const spaceAge = (seconds) => {
 	}
 	for(x of Object.keys(yearsInAllPlanets))
     {
-        //yearsInAllPlanets[x] = (seconds / (yearsInAllPlanets[x]*365.25*24*60*60)).toFixed(2);
         var value = (seconds / (yearsInAllPlanets[x]*365.25*24*60*60)).toFixed(2)
         yearsInAllPlanets[x] = parseFloat(value) ;
     }
