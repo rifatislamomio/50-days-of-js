@@ -1,5 +1,4 @@
 //Determine if a sentence is a pangram
-
 // const isPangram = (input) => {
 // 	input = input.toLocaleLowerCase() + ""
 //     input = input.replaceAll(' ', '')
@@ -14,10 +13,9 @@
 //     }
 // 	return arr.length == 26;
 // }
-//console.log(isPangram('The quick brown fox jumps over the lazy dog'))
+
 
 //Best Alternative
-
 const isPangram = (input) => {
     input = input.toLocaleLowerCase() + ""
     input = input.replaceAll(' ', '')
