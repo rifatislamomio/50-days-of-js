@@ -1,5 +1,4 @@
-var ara = [1, 2, 3, 4, 1, 2, 3]
-
+var ara = [1, 2, -1, 2]
 
 function findEvenIndex(arr) {
     {
